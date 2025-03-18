@@ -1,0 +1,51 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    color: #E8F4FC;
+    background-color: #202850;
+    padding: 50px;
+    border-radius: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 200px;
+    font-family: "ABeeZee", Arial, Helvetica, sans-serif;
+}
+
+.creativity-ilustration {
+    max-height: 515px;
+}
+
+.right {
+    max-width: 450px;
+}
+
+.right h2 {
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.right p {
+    font-size: 20px;
+}
+
+.button {
+    background: linear-gradient(to right, #5D5791, #9747FF);
+    width: fit-content;
+    padding: 5px 5px 5px 20px;
+    border-radius: 50px;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.arrow {
+    background-color: #202850;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 30px;
+}
