@@ -1,0 +1,61 @@
+.main {
+    color: #E8F4FC;
+    font-family: "ABeeZee", Arial, Helvetica, sans-serif;
+    gap: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    gap: 55px;
+}
+
+.card-course {
+    background-color: #202850;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 30px;
+    max-width: 550px;
+    max-height: 165px;
+    flex-wrap: nowrap;
+}
+
+.left-icon {
+    background: linear-gradient(to bottom, #5D5791, #9747FF);
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+}
+
+h3 {
+    color: #9747FF;
+    font-size: 25px;
+}
+
+.button {
+    background: linear-gradient(to right, #5D5791, #9747FF);
+    width: fit-content;
+    padding: 5px 5px 5px 20px;
+    border-radius: 50px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.arrow {
+    background-color: #202850;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 30px;
+}
