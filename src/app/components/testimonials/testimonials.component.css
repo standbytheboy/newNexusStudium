@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  min-width: 415px;
+  height: 480px;
+  background-color: #2A5D84;
+  border-radius: 20px;
+}
+
+.carousel {
+  padding: 50px;
+  overflow: hidden;
+}
+
+.cards-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+  gap: 50px;
+  width: min-content;
+  margin-left: 35%;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
