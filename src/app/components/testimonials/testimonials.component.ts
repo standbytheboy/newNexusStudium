@@ -47,7 +47,7 @@ export class TestimonialsComponent implements OnInit, OnDestroy {
       this.idx = cards.length - 1;
     }
 
-    this.cards.nativeElement.style.transform = `translateX(${-this.idx * 16.8}%)`;
+    this.cards.nativeElement.style.transform = `translateX(${-this.idx * 12.5}%)`;
   }
 
   resetInterval(): void {

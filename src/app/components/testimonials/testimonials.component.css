@@ -1,12 +1,21 @@
 * {
   box-sizing: border-box;
+  font-family: "ABeeZee", Arial, Helvetica, sans-serif;
+  color: #E8F4FC;
+  margin: 0;
+  padding: 0;
 }
 
-.card {
-  min-width: 415px;
-  height: 480px;
-  background-color: #2A5D84;
-  border-radius: 20px;
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
 }
 
 .carousel {
@@ -20,21 +29,61 @@
   transition: transform 0.5s ease-in-out;
   gap: 50px;
   width: min-content;
-  margin-left: 35%;
+  margin: 0 0 50px 35%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 415px;
+  height: 480px;
+  background-color: #2A5D84;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.user {
+  gap: 10px;
+}
+
+.user-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.stars {
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.testimonial {
+  font-size: 18px;
+}
+
+.course {
+  background-color: #9747FF;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 12px;
 }
 
 .buttons-container {
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
 }
 
 .btn {
-  background-color: rebeccapurple;
-  color: #fff;
+  width: fit-content;
+  background-color: #2A5D84;
+  color: #E8F4FC;
   border: none;
-  padding: 0.5rem;
+  padding: 10px 20px;
+  border-radius: 10px;
   cursor: pointer;
-  width: 49.5%;
 }
 
 .btn:hover {
