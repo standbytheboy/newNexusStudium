@@ -34,9 +34,14 @@ h2 {
 
 .left-icon {
     background: linear-gradient(to bottom, #5D5791, #9747FF);
-    width: 125px;
+    width: 80%;
     height: 125px;
+    padding: 20px;
     border-radius: 15px;
+}
+
+svg {
+    width: 50px;
 }
 
 h3 {

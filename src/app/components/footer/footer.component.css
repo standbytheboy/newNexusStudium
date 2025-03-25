@@ -6,6 +6,11 @@
     text-decoration: none;
 } 
 
+.footer {
+    font-size: 25px;
+    gap: 20px;
+}
+
 .bg {
     background-color: #202850;
     padding: 50px;
@@ -24,6 +29,11 @@
     border: 1px solid #E8F4FC;
     border-radius: 50%;
     justify-content: center;
+    margin-right: 10px;
+}
+
+svg {
+    width: 25px;
 }
 
 .left {
