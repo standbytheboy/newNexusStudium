@@ -94,8 +94,13 @@ svg {
 }
 
 .actual-courses {
-    gap: 35px;
     flex-wrap: nowrap;
+}
+
+.actual-courses, .more-info {
+    gap: 35px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .card {
@@ -125,4 +130,84 @@ svg {
 .course-data {
     justify-content: space-between;
     width: 100%;
+}
+
+.following {
+    max-width: 40%;
+    height: 100%;
+}
+
+.following h3, .daily-goals h3, .topics h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.masters, .all-goals, .recent-topics {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.masters {
+    gap: 30px;
+}
+
+.master img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.right {
+    max-width: 50%;
+}
+
+.daily-goals {
+    margin-bottom: 25px;
+}
+
+.all-goals {
+    gap: 30px;
+}
+
+.daily {
+    background-color: #202850;
+    width: 18rem;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-left: 7px solid #9747FF;
+    border-radius: 10px;
+}
+
+.goal-data p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.recent-topics {
+    gap: 10px;
+}
+
+.topic {
+    background-color: #202850;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    width: 13rem;
+}
+
+.bg-svg {
+    background-color: #E8F4FC30;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.topic svg {
+    width: 20px;
+    padding: 10px;
+}
+
+.top {
+    justify-content: space-between;
+    font-size: 10px;
 }
