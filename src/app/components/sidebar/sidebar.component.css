@@ -29,10 +29,9 @@
     position: fixed;
     left: 0;
     top: 0;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: "Fira Sans", Arial, Helvetica, sans-serif;
     padding: 30px 0;
-    gap: 70px;
     height: 97vh;
 }
 

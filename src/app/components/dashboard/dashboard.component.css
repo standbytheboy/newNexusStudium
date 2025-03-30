@@ -145,7 +145,7 @@ svg {
 .masters, .all-goals, .recent-topics {
     display: flex;
     justify-content: space-between;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .masters {
@@ -172,7 +172,6 @@ svg {
 
 .daily {
     background-color: #202850;
-    width: 18rem;
     justify-content: space-between;
     padding: 10px 20px;
     border-left: 7px solid #9747FF;
@@ -193,7 +192,6 @@ svg {
     border-radius: 20px;
     padding: 10px;
     justify-content: space-between;
-    width: 13rem;
 }
 
 .bg-svg {
@@ -213,7 +211,6 @@ svg {
 }
 
 .exercise {
-    width: 40rem;
     gap: 20px;
 }
 
