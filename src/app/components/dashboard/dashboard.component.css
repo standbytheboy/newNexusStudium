@@ -13,7 +13,7 @@
     margin-left: 350px;
     padding: 50px;
     color: #E8F4FC;
-    gap: 40px;
+    gap: 25px;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -137,7 +137,7 @@ svg {
     height: 100%;
 }
 
-.following h3, .daily-goals h3, .topics h3 {
+.following h3, .daily-goals h3, .topics h3, .exercises h3 {
     margin-bottom: 20px;
     font-size: 20px;
 }
@@ -188,7 +188,7 @@ svg {
     gap: 10px;
 }
 
-.topic {
+.topic, .exercise {
     background-color: #202850;
     border-radius: 20px;
     padding: 10px;
@@ -202,7 +202,7 @@ svg {
     margin-right: 10px;
 }
 
-.topic svg {
+.topic svg, .exercise svg {
     width: 20px;
     padding: 10px;
 }
@@ -210,4 +210,28 @@ svg {
 .top {
     justify-content: space-between;
     font-size: 10px;
+}
+
+.exercise {
+    width: 40rem;
+    gap: 20px;
+}
+
+.exercise-data p {
+    font-size: 12px;
+}
+
+.subject {
+    background-color: #9747FF;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.exercises {
+    width: 100%;
+
+}
+
+.recent-exercises {
+    justify-content: space-between;
 }
