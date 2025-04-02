@@ -11,7 +11,7 @@
 
 .container{
     margin-left: 350px;
-    padding: 50px;
+    padding: 30px 40px;
     color: #E8F4FC;
     gap: 25px;
     flex-direction: column;
@@ -27,13 +27,17 @@
     gap: 20px;
 }
 
+.left h2 {
+    font-size: 20px;
+}
+
 svg {
     fill: #E8F4FC;
-    width: 40px;
+    width: 30px;
 }
 
 .notification {
-    width: 30px;
+    width: 25px;
     cursor: pointer;
 }
 
@@ -44,7 +48,7 @@ svg {
 
 .bg-search {
     width: 350px;
-    height: 40px;
+    height: 30px;
     background-color: #E8F4FC;
     border: 1px solid #202850;
     border-radius: 30px;
@@ -70,7 +74,7 @@ svg {
     all: unset;
     border: none;
     width: 320px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .progress {
@@ -104,20 +108,20 @@ svg {
 }
 
 .card {
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    min-width: 180px;
-    height: 180px;
+    min-width: 140px;
+    height: 100px;
     background-color: #202850;
     border-radius: 20px;
-    flex-direction: column;
-    padding: 30px;
+    padding: 30px 35px;
 }
 
 .icon {
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-color: #E8F4FC40;
     justify-content: center;
 }
@@ -129,7 +133,6 @@ svg {
 
 .course-data {
     justify-content: space-between;
-    width: 100%;
 }
 
 .following {
@@ -138,14 +141,15 @@ svg {
 }
 
 .following h3, .daily-goals h3, .topics h3, .exercises h3 {
+    font-size: 1rem;
     margin-bottom: 20px;
-    font-size: 20px;
+
 }
 
-.masters, .all-goals, .recent-topics {
+.masters, .all-goals, .recent-topics, .exercise {
     display: flex;
     justify-content: space-between;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 .masters {
@@ -174,6 +178,7 @@ svg {
     background-color: #202850;
     justify-content: space-between;
     padding: 10px 20px;
+    width: 200px;
     border-left: 7px solid #9747FF;
     border-radius: 10px;
 }
@@ -231,4 +236,45 @@ svg {
 
 .recent-exercises {
     justify-content: space-between;
+}
+
+@media (min-width: 1540px) {
+    .left h2 {
+        font-size: 24px;
+    }
+
+    svg {
+        width: 40px;
+    }
+
+    .bg-search {
+        height: 40px;        
+    }
+
+    .notification {
+        width: 30px;
+    }
+
+    .following h3, .daily-goals h3, .topics h3, .exercises h3 {
+        font-size: 20px;
+    }
+    
+    .masters, .all-goals, .recent-topics {
+        font-size: 1.1rem;
+    }
+
+    .card {
+        min-width: 180px;
+        height: 180px;
+        padding: 30px;
+    }
+
+    .course-data {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .container{
+        padding: 50px;
+    }
 }
