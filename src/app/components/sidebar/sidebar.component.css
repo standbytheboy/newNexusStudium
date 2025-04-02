@@ -24,6 +24,7 @@
 }
 
 .sidebar {
+    box-sizing: border-box;
     background-color: #2A5D84;
     width: 350px;
     position: fixed;
@@ -31,8 +32,8 @@
     top: 0;
     justify-content: space-evenly;
     font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-    padding: 30px 0;
-    height: 97vh;
+    padding: 50px 0;
+    height: 100vh;
 }
 
 .user {
@@ -111,4 +112,21 @@
     height: 20px;
     margin-right: 10px;
     fill: #E8F4FC50;
+}
+
+@media (max-width: 1540px) {
+    .sidebar {
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .circle::before {
+        width: 135px;
+        height: 135px;
+    }
 }
