@@ -37,40 +37,47 @@
         </div>
 
         <div class="geral-content flex">
-            <div class="user flex">
-                <p>Foto de Perfil</p>
-                <ul class="user-info flex">
-                    <li><img src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do Usuário" width="85px" height="85px" class="user-photo"></li>
-                    <li><div class="btn">Trocar Foto</div></li>
-                    <li><div class="btn">Excluir Foto</div></li>
-                </ul>
-            </div>
-            <div class="name flex">
-                <p>Nome</p>
-                <ul class="name-info flex">
-                    <input type="text" name="username" id="username" placeholder="Fulano">
-                    <input type="text" name="lastname" id="lastname" placeholder="Silva">
-                </ul>
-            </div>
-            <div class="email flex">
-                <p>Endereço de Email</p>
-                <ul class="email-info flex">
-                    <input type="text" name="email" id="email" placeholder="fulano@email.com">
-                </ul>
-            </div>
-            <div class="country flex">
-                <p>País</p>
-                <ul class="country-info flex">
-                    <input type="text" name="country" id="country" placeholder="Brasil">
-                </ul>
-            </div>
-            <div class="aboutme flex">
-                <p>Sobre Mim</p>
-                <ul class="aboutme-info flex">
-                    <input type="text" name="aboutme" id="aboutme" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam">
-                </ul>
-            </div>
-            <div class="btn">Salvar alterações</div>
+            <form class="content flex">
+                <div class="user flex">
+                    <p>Foto de Perfil</p>
+                    <ul class="user-info flex">
+                        <li><img src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do Usuário" width="85px" height="85px" class="user-photo"></li>
+                        <li><div class="btn change-photo">Trocar Foto</div></li>
+                        <li><div class="btn delete-photo">Excluir Foto</div></li>
+                    </ul>
+                </div>
+                <div class="name flex">
+                    <p>Nome</p>
+                    <div class="name-info flex">
+                        <input type="text" name="username" id="username" placeholder="Fulano">
+                        <input type="text" name="lastname" id="lastname" placeholder="Silva">
+                    </div>
+                </div>
+                
+                <div class="email flex">
+                    <p>Endereço de Email</p>
+                    <div class="email-info flex">
+                        <input type="email" name="email" id="email" placeholder="fulano@email.com">
+                    </div>
+                </div>
+                
+                <div class="country flex">
+                    <p>País</p>
+                    <div class="country-info flex">
+                        <input type="text" name="country" id="country" placeholder="Brasil">
+                    </div>
+                </div>
+                
+                <div class="aboutme flex">
+                    <p>Sobre Mim</p>
+                    <div class="aboutme-info flex">
+                        <textarea name="aboutme" id="aboutme" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."></textarea>
+                    </div>
+                </div>
+                
+                <button class="btn save" type="submit">Salvar alterações</button>
+            </form>
+            
         </div>
     </div>
 </div>
