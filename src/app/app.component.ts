@@ -4,11 +4,11 @@ import { HomeComponent } from "./components/home/home.component";
 import { DashboardComponent } from "./components/dashboard/dashboard.component";
 import { ContributionsComponent } from "./components/contributions/contributions.component";
 import { SettingsComponent } from "./components/settings/settings.component";
-import { SearchComponent } from './components/search/search.component';
+import { SearchExercisesComponent } from './components/search-exercises/search-exercises.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HomeComponent, DashboardComponent, ContributionsComponent, SettingsComponent, SearchComponent],
+  imports: [RouterOutlet, HomeComponent, DashboardComponent, ContributionsComponent, SettingsComponent, SearchExercisesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
