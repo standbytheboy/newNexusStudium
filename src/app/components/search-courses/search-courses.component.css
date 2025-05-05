@@ -76,7 +76,7 @@ svg {
 
 .main-search {
     justify-content: flex-start;
-    gap: 2rem;
+
 }
 
 .main-search ul {
@@ -95,13 +95,11 @@ svg {
     color: #E8F4FC;
 }
 
-.articles {
+.videos {
     flex-wrap: nowrap;
-    background-color: #20285030;
-    border-radius: 1.2rem;
 }
 
-.article {
+.video {
     padding: 20px;
     min-width: 310px;
 }
@@ -114,18 +112,14 @@ svg {
     cursor: pointer;
 }
 
-.article-info {
+.course-info {
     justify-content: space-between;
 }
 
-.article-title {
+.video-title {
     font-weight: 400;
     width: 90%;
     cursor: pointer;
-}
-
-.article-subtitle {
-    color: #E8F4FC50;
 }
 
 .mentor-info {
@@ -151,11 +145,11 @@ svg {
     border-radius: 20px;
 }
 
-.more-articles .flex{
-    padding: 0;
+.more-videos {
+    justify-content: flex-end;
 }
 
-.more-articles ul li {
+.more-videos ul li {
     cursor: pointer;
     padding: 10px 15px;
     width: 2rem;
@@ -167,34 +161,57 @@ svg {
     border-radius: 5px;
 }
 
-.more-articles ul .actual-page {
+.more-videos ul .actual-page {
     background-color: #202850;
     border: 1px solid #202850;
 }
 
-.main-article {
-    width: 100%;
-    background-color: #20285030;
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.popular-courses {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.course {
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: flex-end;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://images.unsplash.com/photo-1726138383736-3c848a2c7769?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    width: 19.375rem;
+    height: 17.1875rem;
     padding: 1.2rem;
     border-radius: 1.2rem;
+}
+
+.course-data,
+.course hr {
+    width: 100%;
     justify-content: space-between;
 }
 
-.main-photo {
-    min-width: 310px;
-    width: 50%;
-    object-fit: cover;
-    height: 22rem;
-    border-radius: 1.2rem;
+.button {
+    margin: 2rem auto 0;
+    background: linear-gradient(to right, #5D5791, #9747FF);
+    width: fit-content;
+    padding: 5px 5px 5px 20px;
+    border-radius: 50px;
+    gap: 10px;
+    cursor: pointer;
 }
 
-.data {
-    width: 50%;
-    padding: 1.2rem;
-    box-sizing: border-box;
-}
-
-.main-article-title {
-    font-size: 1.5rem;
-    width: 90%;
+.arrow {
+    background-color: #202850;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 30px;
+    justify-content: center;
 }
