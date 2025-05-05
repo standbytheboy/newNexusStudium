@@ -95,13 +95,13 @@ svg {
     color: #E8F4FC;
 }
 
-.exercises {
+.articles {
     flex-wrap: nowrap;
     background-color: #20285030;
     border-radius: 1.2rem;
 }
 
-.exercise {
+.article {
     padding: 20px;
     min-width: 310px;
 }
@@ -114,17 +114,17 @@ svg {
     cursor: pointer;
 }
 
-.exercise-info {
+.article-info {
     justify-content: space-between;
 }
 
-.exercise-title {
+.article-title {
     font-weight: 400;
     width: 90%;
     cursor: pointer;
 }
 
-.exercise-subtitle {
+.article-subtitle {
     color: #E8F4FC50;
 }
 
@@ -151,11 +151,11 @@ svg {
     border-radius: 20px;
 }
 
-.more-exercises .flex{
+.more-articles .flex{
     padding: 0;
 }
 
-.more-exercises ul li {
+.more-articles ul li {
     cursor: pointer;
     padding: 10px 15px;
     width: 2rem;
@@ -167,12 +167,12 @@ svg {
     border-radius: 5px;
 }
 
-.more-exercises ul .actual-page {
+.more-articles ul .actual-page {
     background-color: #202850;
     border: 1px solid #202850;
 }
 
-.main-exercise {
+.main-article {
     width: 100%;
     background-color: #20285030;
     padding: 1.2rem;
@@ -194,7 +194,7 @@ svg {
     box-sizing: border-box;
 }
 
-.main-exercise-title {
+.main-article-title {
     font-size: 1.5rem;
     width: 90%;
 }
