@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    margin-left: 350px;
+    padding: 30px 40px;
+    color: #E8F4FC;
+    gap: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.left, .right {
+    gap: 20px;
+}
+
+.left h2 {
+    font-size: 20px;
+}
+
+.notification {
+    width: 25px;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-search {
+    width: 350px;
+    height: 30px;
+    background-color: #E8F4FC;
+    border: 1px solid #202850;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    color: #202850;
+}
+
+.search-button svg {
+    fill: #777;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.search-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding-left: 17.35px;
+    cursor: pointer;
+}
+
+.search-input {
+    all: unset;
+    border: none;
+    width: 320px;
+    font-size: 16px;
+}
+
+.course-road {
+    list-style-type: none;
+    gap: 20px;
+    font-weight: bold;
+    color: #E8F4FC50;
+}
+
+.activated {
+    color: #E8F4FC;
+}
+
+.course-container {
+    width: 100%;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.course-title {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card-data-video {
+    background-color: #5D5791;
+    padding: 5px 10px;
+    border-radius: 5px;
+    gap: 5px;
+}
+
+.left-course {
+    width: 60%;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.thumb {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.video-title {
+    margin-bottom: .7rem;
+}
+
+.mentor-info {
+    gap: 30px;
+    font-size: .9rem;
+}
+
+.mentor-photo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mentor-name,
+.marca {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.nota {
+    gap: 5px;
+}
+
+.marca {
+    background-color: #E8F4FC50;
+    padding: 3px 5px;
+    border-radius: 20px;
+}
+
+.tags {
+    gap: 2rem;
+}
+
+.tag {
+    border: 2px solid #5D5791;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.tag-activated {
+    background-color: #5D5791;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.bg-roadmap, .bg-author {
+    background-color: #2A5D84;
+    padding: 30px 20px;
+    border-radius: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.roadmap-title, .author-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.right-course ul li {
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ai-Check {
+    border: 1px solid #202850;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.done .ai-Check {
+    background-color:#202850;
+}
+
+.right-course {
+    width: 35%;
+}
+
+.road-info {
+    gap: .7rem;
+}
+
+.roadmap {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.author-name {
+    font-size: 1rem;
+}
+
+.author-photo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-info {
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
