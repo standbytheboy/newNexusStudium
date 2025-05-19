@@ -1,52 +1,47 @@
-<div class="main-container">
-    <div class="nav flex">
+<main class="main-container">
+    <header class="nav flex">
         <div class="left flex">
             <img src="/logomarca.png" alt="Logo Nexus" width="40px">
             <h2>Tema que pesquisou</h2>
         </div>
         <div class="right flex">
             <div class="search-bar">
-                <form class="bg-search">
-                    <button title="btn" class="search-button" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 512 512">
-                            <path
-                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
-                        </svg></button>
-                    <input class="search-input" type="text" placeholder="O que você quer aprender?">
+                <form class="bg-search" role="search">
+                    <button title="btn" class="search-button" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                        </svg>
+                    </button>
+                    <input class="search-input" type="text" placeholder="O que você quer aprender?" />
                 </form>
             </div>
             <svg class="notification" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <path
-                    d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z" />
+                <path d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z" />
             </svg>
         </div>
-    </div>
-    <div class="main-search flex">
+    </header>
+
+    <nav class="main-search flex">
         <ul class="flex">
             <li><a href="#">Cursos</a></li>
             <li><a class="activated" href="#">Artigos</a></li>
             <li><a href="#">Exercícios</a></li>
             <li><a href="#">Comunidade</a></li>
         </ul>
-    </div>
-    <div class="main-article">
-        <img src="https://images.unsplash.com/photo-1744089326555-4508e029f2f5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Foto do Artigo Principal" class="main-photo">
-        <div class="data">
+    </nav>
+
+    <article class="main-article">
+        <img src="https://images.unsplash.com/photo-1744089326555-4508e029f2f5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do Artigo Principal" class="main-photo">
+        <section class="data">
             <div class="article-info flex">
-                <h3 class="main-article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="ai ai-Ribbon">
-                    <path
-                        d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
+                <h3 class="main-article-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-Ribbon">
+                    <path d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
                 </svg>
             </div>
             <div class="mentor-info flex">
                 <div class="left flex">
-                    <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="Foto do Mentor" class="mentor-photo">
+                    <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do Mentor" class="mentor-photo">
                     <div>
                         <h4 class="mentor-name">Nome do Mentor</h4>
                         <p class="date">Mar 3, 2025</p>
@@ -57,10 +52,11 @@
                     <div class="marca">Compartilhar artigo</div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="article-content flex">
-        <div class="article-content-left">
+        </section>
+    </article>
+
+    <section class="article-content flex">
+        <aside class="article-content-left">
             <h3>SUMÁRIO</h3>
             <ol>
                 <li><a href="#">Primeiro Subtítulo</a></li>
@@ -69,222 +65,105 @@
                 <li><a href="#">Quarto Subtítulo</a></li>
             </ol>
             <div class="social-media-article flex"></div>
-        </div>
-        <div class="article-content-right flex">
+        </aside>
+        <section class="article-content-right flex">
             <div>
                 <h2>1. Primeiro Subtítulo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
             </div>
             <div>
                 <h2>2. Segundo Subtítulo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
             </div>
-
-            <img src="https://images.unsplash.com/photo-1744029829181-ad19c2ee248b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Imagem no artigo" class="article-img">
+            <img src="https://images.unsplash.com/photo-1744029829181-ad19c2ee248b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem no artigo" class="article-img">
             <div>
                 <h2>3. Terceiro Subtítulo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum temporibus deserunt quod ut, necessitatibus maxime quis placeat ad hic consequatur inventore cum, ex nihil porro iste consectetur? Facilis, aliquid. Aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa modi cumque perferendis rerum placeat itaque sunt aut labore voluptates molestiae magnam, eum quas. Totam consequatur ad dolores esse praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit molestiae quam eaque in reprehenderit at facere est eveniet officiis aut. Eius labore ea rem tempora totam repellat, iusto veniam numquam.</p>
             </div>
-        </div>
-        <div class="recommendations">
+        </section>
+        <section class="recommendations">
             <h2>Artigos em Alta</h2>
             <div class="recomm-links flex">
-                <div class="link">
-                    <img src="https://images.unsplash.com/photo-1610994201036-c8b6fc2e1999?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="imagem de artigo recomendado" class="recomm-img">
+                <article class="link">
+                    <img src="https://images.unsplash.com/photo-1610994201036-c8b6fc2e1999?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="imagem de artigo recomendado" class="recomm-img">
                     <div class="article-info flex">
-                        <h3 class="recomm-title">O título do artigo vai aqui, vou escrever qualquer coisa só pra
-                            preencher
-                            o espaço</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="ai ai-Ribbon">
-                            <path
-                                d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
+                        <h3 class="recomm-title">O título do artigo vai aqui, vou escrever qualquer coisa só pra preencher o espaço</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-Ribbon">
+                            <path d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
                         </svg>
                     </div>
                     <div class="mentor-info flex">
                         <div class="left flex">
-                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Foto do Mentor" class="mentor-photo">
+                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do Mentor" class="mentor-photo">
                             <h4 class="mentor-name">Nome do Mentor</h4>
                         </div>
                         <div class="right">
                             <div class="marca">Tempo do Artigo</div>
                         </div>
                     </div>
-                </div>
-                <div class="link">
-                    <img src="https://images.unsplash.com/photo-1610994201036-c8b6fc2e1999?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="imagem de artigo recomendado" class="recomm-img">
+                </article>
+                <article class="link">
+                    <img src="https://images.unsplash.com/photo-1610994201036-c8b6fc2e1999?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="imagem de artigo recomendado" class="recomm-img">
                     <div class="article-info flex">
-                        <h3 class="recomm-title">O título do artigo vai aqui, vou escrever qualquer coisa só pra
-                            preencher
-                            o espaço</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="ai ai-Ribbon">
-                            <path
-                                d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
+                        <h3 class="recomm-title">O título do artigo vai aqui, vou escrever qualquer coisa só pra preencher o espaço</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-Ribbon">
+                            <path d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
                         </svg>
                     </div>
                     <div class="mentor-info flex">
                         <div class="left flex">
-                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Foto do Mentor" class="mentor-photo">
+                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do Mentor" class="mentor-photo">
                             <h4 class="mentor-name">Nome do Mentor</h4>
                         </div>
                         <div class="right">
                             <div class="marca">Tempo do Artigo</div>
                         </div>
                     </div>
-                </div>
-                <div class="link">
-                    <img src="https://images.unsplash.com/photo-1610994201036-c8b6fc2e1999?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="imagem de artigo recomendado" class="recomm-img">
+                </article>
+                <article class="link">
+                    <img src="https://images.unsplash.com/photo-1610994201036-c8b6fc2e1999?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="imagem de artigo recomendado" class="recomm-img">
                     <div class="article-info flex">
-                        <h3 class="recomm-title">O título do artigo vai aqui, vou escrever qualquer coisa só pra
-                            preencher
-                            o espaço</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="ai ai-Ribbon">
-                            <path
-                                d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
+                        <h3 class="recomm-title">O título do artigo vai aqui, vou escrever qualquer coisa só pra preencher o espaço</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-Ribbon">
+                            <path d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
                         </svg>
                     </div>
                     <div class="mentor-info flex">
                         <div class="left flex">
-                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Foto do Mentor" class="mentor-photo">
+                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do Mentor" class="mentor-photo">
                             <h4 class="mentor-name">Nome do Mentor</h4>
                         </div>
                         <div class="right">
                             <div class="marca">Tempo do Artigo</div>
                         </div>
                     </div>
-                </div>
-                <div class="link">
-                    <img src="https://images.unsplash.com/photo-1610994201036-c8b6fc2e1999?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="imagem de artigo recomendado" class="recomm-img">
+                </article>
+                <article class="link">
+                    <img src="https://images.unsplash.com/photo-1610994201036-c8b6fc2e1999?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="imagem de artigo recomendado" class="recomm-img">
                     <div class="article-info flex">
-                        <h3 class="recomm-title">O título do artigo vai aqui, vou escrever qualquer coisa só pra
-                            preencher
-                            o espaço</h3>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="ai ai-Ribbon">
-                            <path
-                                d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
+                        <h3 class="recomm-title">O título do artigo vai aqui, vou escrever qualquer coisa só pra preencher o espaço</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-Ribbon">
+                            <path d="M4 5v14.586c0 .89 1.077 1.337 1.707.707L12 14l6.293 6.293c.63.63 1.707.184 1.707-.707V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z" />
                         </svg>
                     </div>
                     <div class="mentor-info flex">
                         <div class="left flex">
-                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="Foto do Mentor" class="mentor-photo">
+                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do Mentor" class="mentor-photo">
                             <h4 class="mentor-name">Nome do Mentor</h4>
                         </div>
                         <div class="right">
                             <div class="marca">Tempo do Artigo</div>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
-        </div>
+        </section>
+    </section>
 
-    </div>
-</div>
+</main>
